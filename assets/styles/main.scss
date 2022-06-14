@@ -1,0 +1,35 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: red;
+    // background: rgba(0, 0, 0, 0) linear-gradient(123deg, rgb(46, 153, 176) 0%, rgb(46, 153, 176) 40%, rgb(252, 215, 127) calc(40% + 1px), rgb(252, 215, 127) 60%, rgb(255, 46, 76) calc(60% + 1px), rgb(255, 46, 76) 75%, rgb(30, 21, 72) calc(75% + 1px), rgb(30, 21, 72) 100%) no-repeat 0% 0%;
+}
+
+// Theming
+// $body-background-color: #001e26;
+$body-background-color: #0a192f;
+$primary: #00dc82;
+$text: #ffffff;
+
+// Font
+
+// Card Customization
+$card-background-color: #003543;
+$card-header-background-color: $body-background-color;
+$card-header-color: #ffffff;
+
+// Tabs
+$tabs-link-hover-color: $primary;
+$tabs-link-hover-border-bottom-color: $primary;
+$tabs-link-active-border-bottom-color: $primary;
+$tabs-link-active-color: $primary;
+
+$section-padding: 1rem 0.5rem;
+$section-padding-desktop: 1.5rem 1.5rem;
+$card-content-padding: 1rem;
+
+@import "../../node_modules/bulma/bulma.sass";
