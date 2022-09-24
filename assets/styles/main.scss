@@ -31,5 +31,12 @@ $tabs-link-active-color: $primary;
 $section-padding: 1rem 0.5rem;
 $section-padding-desktop: 1.5rem 1.5rem;
 $card-content-padding: 1rem;
+// Navbar
+$navbar-background-color: $body-background-color;
+
+// Content
+$content-pre-padding: 1em 1em;
+
+
 
 @import "../../node_modules/bulma/bulma.sass";

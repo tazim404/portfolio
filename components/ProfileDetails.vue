@@ -11,6 +11,17 @@
         <p class="is-flex-grow-1 is-family-monospace">Based in:</p>
         <p class="is-family-monospace">{{ details.country }}</p>
       </div>
+      <!-- Age -->
+      <div class="is-flex is-flex-direction-row">
+        <div class="icon-text">
+          <div class="icon is-small">
+            <img src="../assets/icons/age.svg" alt="" />
+          </div>
+        </div>
+        <p class="is-flex-grow-1 is-family-monospace">Age:</p>
+        <p class="is-family-monospace">{{ details.age }}</p>
+      </div>
+      <!-- Age Ends -->
       <!-- Socials -->
       <div
         v-for="social in details.socials"

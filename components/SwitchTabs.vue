@@ -16,7 +16,7 @@
         <MyProjects />
       </div>
       <div class="tab-content" :class="{ 'is-active': isActive == 'blogs' }">
-        <MyBlogs />
+        <MyBlogs :articles="articles" />
       </div>
     </div>
   </div>
@@ -30,6 +30,7 @@ export default {
       isActive: 'projects',
     }
   },
+  props: ['articles'],
 }
 </script>
 

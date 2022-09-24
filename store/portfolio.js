@@ -6,9 +6,10 @@ export const state = () => ({
     description: 'Sharing what I am learning. Learning web development.',
   },
   details: {
-    codingFrom: '',
+    codingFrom: 'July 2021',
     dob: '',
     country: 'India',
+    age: '18',
     socials: [
       {
         name: 'Github',
@@ -74,8 +75,8 @@ export const state = () => ({
     },
     {
       starting: '2019',
-      till: '2021',
-      degree: 'Higher Secondaty School',
+      till: '2022',
+      degree: 'Higher Secondary School',
       from: 'Doranda Collage, Ranchi',
     },
   ],

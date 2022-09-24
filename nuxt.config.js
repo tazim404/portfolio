@@ -35,6 +35,15 @@ export default {
       },
     ],
     link: [],
+    script: [
+      {
+        src: 'https://devshub-analytics.herokuapp.com/umami.js',
+        'data-website-id': '7186e2ec-0684-4ef5-8510-537a1b31f692',
+        async: true,
+        defer: true,
+        'data-domain': 'tazim.netlify.app',
+      },
+    ],
   },
   css: [
     './assets/styles/main.scss',
@@ -47,8 +56,14 @@ export default {
     '@nuxtjs/eslint-module',
   ],
 
-  modules: ['@nuxtjs/axios'],
-
+  modules: ['@nuxtjs/axios', '@nuxt/content'],
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css',
+      },
+    },
+  },
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
